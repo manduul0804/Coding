@@ -27,4 +27,4 @@ g_key = public_key(p,g,x)
 
 m_num = 6
 encrypt(p,g_key,m_num)
-decrypt(p,x,28,23)
+decrypt(p,6,21,11)
