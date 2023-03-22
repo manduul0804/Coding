@@ -1,6 +1,6 @@
-p = 29
-g = 2
-x = 5
+p = 23
+g = 7
+x = 6
 
 def public_key(p1,g1,x1):
     g_mod = (g1**x1) % p1
@@ -27,4 +27,4 @@ g_key = public_key(p,g,x)
 
 m_num = 6
 encrypt(p,g_key,m_num)
-decrypt(p,6,21,11)
+decrypt(23,6,21,11)
