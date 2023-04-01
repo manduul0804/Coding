@@ -6,10 +6,10 @@ public class userGroup{
     public static void main(String[] args) {
 
 
-        List<String> grpNames = new ArrayList();
+        List<String> grpNames = Arrays.asList("bronze", "gold", "silver", "diamond", "platinum", "copper", "nickel", "titanium", "iron", "cobalt", "tungsten", "mercury");
 
         //Empty list to store names from user table
-        List<String> names = new ArrayList();
+        List<String> names = Arrays.asList("Aaron", "Ethan", "green", "Hassan", "Isidro", "Jason", "Jesus", "Jose", "Karen", "Manduul", "Muhammad", "Nathan", "Omar", "Riley", "Sergey", "Stuart", "Tom", "yellow");
 
         int guid = 1000;
         System.out.println(grpNames);
@@ -35,6 +35,6 @@ public class userGroup{
                 
                 
             }    
+        }
     }
-}
 }
