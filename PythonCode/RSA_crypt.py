@@ -1,7 +1,7 @@
 
-e = 23
-p = 7
-q = 11
+e = 17
+p = 53
+q = 61
 n = p * q
 
 def findD(p1, q1, e1):
@@ -27,4 +27,5 @@ def cipher(M1, e1, n1):
 
 inMod = findD(p,q,e)
 print(f"d = {inMod}")
-decrypt(70,inMod,n)
+decrypt(2790,inMod,n)
+

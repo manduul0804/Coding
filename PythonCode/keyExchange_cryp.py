@@ -1,9 +1,9 @@
 
 
-p = 109
-g = 3
-a = 5
-b = 7
+p = 89
+g = 6
+a = 18
+b = 33
 
 def encrypt(p1,g1,a1):
     # A=g^a mod p
